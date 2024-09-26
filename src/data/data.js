@@ -1,7 +1,27 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.7.3",
+        "date": "WIP",
+        "added": [
+            "Sales area: update client preview to include a data table",
+            "Repondre a un appel d'offre"
+        ],
+        "changed": [
+            "Sales area: Display sales full name on assignment dialog",
+            "Client view: Displaying client's addresses",
+            "Credentials Email: Updated the account activation email template",
+            "Removed sign up button and privated the route",
+            "Redirect on client save"
+        ],
+        "fixed": [
+            "Client area guard;",
+            "Removed unecessary tabs for clients view;",
+            "Client's form pre-populated fields;"
+        ],
+    },
+    {
         "version": "1.0.0",
-        "date": "   September 20, 2024",
+        "date": "September 20, 2024",
         "added": [
             "Clients Module",
             "",
