@@ -1,6 +1,6 @@
 export const VERSION_DETAILS = [
     {
-        "version": "1.7.3",
+        "version": "1.9.5",
         "date": "October 2, 2024",
         "added": [
             "Client Module: Updated client preview to include a data table of available contact people",
