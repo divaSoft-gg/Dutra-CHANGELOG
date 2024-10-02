@@ -1,22 +1,26 @@
 export const VERSION_DETAILS = [
     {
         "version": "1.7.3",
-        "date": "WIP",
+        "date": "October 2, 2024",
         "added": [
-            "Sales area: update client preview to include a data table",
-            "Repondre a un appel d'offre"
+            "Client Module: Updated client preview to include a data table of available contact people",
+            "Affaire Module: Implemented 'Repondre a un appel d'offre'",
+            "Client Module: SAV handling per affaire",
+            "Client Module: Added a progress bar to indicate profile data completion",
         ],
         "changed": [
-            "Sales area: Display sales full name on assignment dialog",
-            "Client view: Displaying client's addresses",
-            "Credentials Email: Updated the account activation email template",
-            "Removed sign up button and privated the route",
-            "Redirect on client save"
+            "Client Module: Display sales full name on assignment dialog",
+            "Client Module: Display client's addresses on preview section",
+            "Clients Module: Updated the account activation Email template",
+            "Root Module: Removed sign up button and privated the route",
+            "Clients Module:; Redirect on client save"
         ],
         "fixed": [
-            "Client area guard;",
-            "Removed unecessary tabs for clients view;",
-            "Client's form pre-populated fields;"
+            "Client Module: Refactored the route guard to handle client access correctly",
+            "Client Module: Removed unecessary tabs (used for testing)",
+            "Client's Module: Fixed pre-populated client form",
+            "Affaire Module: Added unique constraint for project name (per client)",
+            "Affaire Module: Disabled action buttons while affaire is still being created"
         ],
     },
     {
