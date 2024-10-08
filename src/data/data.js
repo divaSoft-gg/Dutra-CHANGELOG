@@ -1,5 +1,19 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.11.8",
+        "date": "October 8, 2024",
+        "added": [],
+        "changed": [
+            "Removed all json files and replaced them with database entries",
+            "Affaire Module: Added a form array as 'criteres d'attribution'"
+        ],
+        "fixed": [
+            "Affaire Module: document can not be saved (logo, t-label, ...)",
+            "Affaire Module: Only unlock \"send email\" once the affaire has been saved",
+            "Affaire Module: project not being saved correctly"
+        ],
+    },
+    {
         "version": "1.9.5",
         "date": "October 2, 2024",
         "added": [
