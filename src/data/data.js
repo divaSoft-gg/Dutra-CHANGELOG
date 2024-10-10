@@ -1,5 +1,20 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.14.11",
+        "date": "October 10, 2024",
+        "added": [
+            "Affaire Module: Added %/£ toggle in the contract tab",
+            "Affaire Module: Added a rich text editor for the 'critere' field",
+            "Catalogue Module: Listing available articles"
+        ],
+        "changed": [],
+        "fixed": [
+            "Fixed action buttons ui to match the rest of the theme",
+            "Fixed profile photo not saving",
+            "Affaire Module: Fixed projects not showing for selected clients"
+        ],
+    },
+    {
         "version": "1.11.8",
         "date": "October 8, 2024",
         "added": [],
