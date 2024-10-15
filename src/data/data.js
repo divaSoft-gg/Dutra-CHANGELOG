@@ -1,5 +1,18 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.16.12",
+        "date": "October 15, 2024",
+        "added": [
+            "Added user guide",
+        ],
+        "changed": [
+            'Affaire Module: Article selection by color (& size)'
+        ],
+        "fixed": [
+            "Clients Module: Fixed 'add new client' redirection to dahsboard",
+        ],
+    },
+    {
         "version": "1.14.11",
         "date": "October 10, 2024",
         "added": [
