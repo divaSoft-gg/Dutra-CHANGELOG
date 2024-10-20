@@ -1,5 +1,19 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.18.15",
+        "date": "October 20, 2024",
+        "added": [
+            "Affaire Module: Create new product",
+            "Global loader for all http requests"
+        ],
+        "changed": [],
+        "fixed": [
+            "Affaire Module: Recap tab is always empty",
+            "Affaire Module: Missing padding in the project's sidebar",
+            "Client Area: All affaires are shown in a single spot"
+        ],
+    },
+    {
         "version": "1.16.12",
         "date": "October 15, 2024",
         "added": [
