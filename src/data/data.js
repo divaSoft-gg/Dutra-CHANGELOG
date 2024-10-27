@@ -1,5 +1,22 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.22.18",
+        "date": "WIP",
+        "added": [
+           " Affaire Module: Added YouSign support",
+            "Affaire Module: Added affaire status"
+        ],
+        "changed": [
+            "Affaire Module: Changed contract form for Appel d'offre",
+            "Affaire Module: Changed articles selection workflow for Appel d'offre"
+        ],
+        "fixed": [
+            "Affaire Module: Fixed article total displayed in recap tab",
+            "Affaire Module: Fixed new article's image not displaying",
+            "Affaire Module: Fixed colors selection not being scoped to parent article"
+        ],
+    },
+    {
         "version": "1.18.15",
         "date": "October 20, 2024",
         "added": [
