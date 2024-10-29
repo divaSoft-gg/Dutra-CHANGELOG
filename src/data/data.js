@@ -13,7 +13,8 @@ export const VERSION_DETAILS = [
         "fixed": [
             "Affaire Module: Fixed article total displayed in recap tab",
             "Affaire Module: Fixed new article's image not displaying",
-            "Affaire Module: Fixed colors selection not being scoped to parent article"
+            "Affaire Module: Fixed colors selection not being scoped to parent article",
+            "Affaire Module: Project not scoped to selected client",
         ],
     },
     {
