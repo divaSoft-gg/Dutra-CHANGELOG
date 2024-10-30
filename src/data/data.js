@@ -1,11 +1,13 @@
 export const VERSION_DETAILS = [
     {
-        "version": "1.24.19",
+        "version": "1.26.19",
         "date": "October 29, 2024",
         "added": [
             "Affaire Module: Added YouSign support",
-            "Affaire Module: Added YouSign support",
+            "Affaire Module: Added affaire status",
+            "Affaire Module: Added affaire types",
             "Clients Module: Added client status",
+            "Clients Module: Added client filter",
             "User guide for the catalogue module",
         ],
         "changed": [
