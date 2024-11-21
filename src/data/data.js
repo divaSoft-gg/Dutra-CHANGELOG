@@ -1,5 +1,30 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.39.21",
+        "date": "November 21, 2024",
+        "added": [
+            "Affaire Module: Auto fill sizes with with initial values",
+            "Affaire Module: Auto fill recap form for all affaires",
+            "Affaire Module: Shipping fees",
+            "Affaire Module: Ability to create a copy of an existing affaire",
+            "Affaire Module: Ability to create a version of an existing affaire",
+            "Affaire Module: Ability to add discount value per affaire and not just per article",
+            "Clients Module: Allowing clients to create their own offer through the online portal",
+            "Clients Module: Clients invoices grouped under 'Facturation' tab",
+        ],
+        "changed": [
+            "Affaire Module: Changed the sizes grid to be XXS -> 4XL",
+            "Affaire Module: Toggling the 'type de procedure' option for all Appel d'offre",
+            "Affaire Module: Shared prototype config between 'Achat' and 'Location' offer types",
+            "Affaire Module: Ability to select more than one 'Blanchisseur'",
+            "Affaire Module: Updated the entire sales-client workflow to allow for more interactivity",
+        ],
+        "fixed": [
+            "Affaire Module: Clients filter not showing correct data",
+            "Affaire Module: Pagination",
+        ],
+    },
+    {
         "version": "1.26.19",
         "date": "October 29, 2024",
         "added": [
