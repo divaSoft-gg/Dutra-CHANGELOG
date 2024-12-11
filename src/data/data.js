@@ -1,5 +1,16 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.42.21",
+        "date": "December 11, 2024",
+        "added": [
+            "Affaire Module: Toggle elements to be updated by clients",
+            "Affaire Module: Send reminders each 3 days for incomplete orders",
+            "Affaire Module: Load articles data from DivaTex ERP"
+        ],
+        "changed": [],
+        "fixed": [],
+    },
+    {
         "version": "1.39.21",
         "date": "November 21, 2024",
         "added": [
